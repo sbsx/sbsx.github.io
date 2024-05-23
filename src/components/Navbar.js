@@ -82,6 +82,8 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* TODO Add research tab */}
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
