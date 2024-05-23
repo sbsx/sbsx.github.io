@@ -21,6 +21,7 @@ import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
+    // TODO Change Techstack
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />

@@ -12,30 +12,31 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
+            {/* TODO Change/Remove Emoji */}
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                I'm
+                <strong className="main-name"> Sandesh Shrestha </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-              </div>
+              </div> 
             </Col>
-
+{/* TODO Change Home Picture */}
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "400px" }}
               />
             </Col>
           </Row>
