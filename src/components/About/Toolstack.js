@@ -4,29 +4,29 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
+  SiDbeaver,
+  SiCloudera,
+  SiMicrosoftazure,
+  SiJira,
+  SiBitbucket,
+  SiMicrosoftteams,
+  SiWindows,
+  SiLinux
 } from "react-icons/si";
+{/*DBeaver, ServiceNow*/}
+
+const icons = [SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiCloudera, 
+  SiJira, SiBitbucket,  SiWindows, SiMicrosoftteams, SiLinux, SiSlack]
 
 function Toolstack() {
   // TODO Change Toolstack
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
+      {icons.map((Icon, index) => (
+        <Col key={index} xs={4} md={2} className="tech-icons">
+          <Icon />
+        </Col>
+      ))}
     </Row>
   );
 }
