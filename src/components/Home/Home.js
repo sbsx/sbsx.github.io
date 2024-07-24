@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
+// TODO CHANGE LAYOUTT TO: Name, Pic, About you. Remove animation, unnecessary images, and emojis.
+
 function Home() {
   return (
     <section>
