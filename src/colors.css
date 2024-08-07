@@ -1,0 +1,40 @@
+/* colors.css */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --imp-text-color: #c770f0; /* Example color from your current CSS */
+
+    --scrollbar-thumb: rgba(178, 121, 216, 0.959);
+    --scrollbar-thumb-hover: rgba(222, 130, 235, 0.911);
+    --scrollbar-track: #2d1950;
+
+    --navbar-bg: #1b1a2ea9;
+    --navbar-toggler: #be50f4;
+    --navbar-brand: rgb(250, 250, 250);
+    --navbar-nav-link: white;
+    --navbar-nav-after: #c95bf5;
+
+    --home-content: whitesmoke;
+    --main-name: #cd5ff8;
+    --home-about-description: white;
+    --home-about-social: white;
+    --home-social-icons: rgba(255, 255, 255, 0.972);
+    --home-social-icons-before: #68187a;
+    --home-social-icons-hover-before: #801f95;
+    --home-social-icons-hover: #87209e;
+
+    --icon-color: #700c86;
+    --footer-bg: rgb(10, 4, 22);
+    --footer-h3: white;
+    --footer-blockquote: #a588c0;
+
+    --project-card-box-shadow: rgba(119, 53, 136, 0.459);
+    --project-card-color: white;
+    --project-card-hover-box-shadow: rgba(129, 72, 144, 0.561);
+
+    --blog-card-view-box-shadow: rgba(145, 77, 161, 0.459);
+    --blog-card-view-color: white;
+}

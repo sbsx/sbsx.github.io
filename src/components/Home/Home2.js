@@ -57,7 +57,7 @@ function Home2() {
               </i>
             </p> */}
           </Col>
-          {/* Change to pic of me */}
+          {/* TODO Change to pic of me doing smth */}
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
