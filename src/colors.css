@@ -1,16 +1,31 @@
 /* colors.css */
+html {
+    --section-background-color: var(--background-color);
+
+    --image-gradient: var(--background-color);
+    --home-background: linear-gradient(
+        to left,
+        var(--background-color),
+        var(--background-color)
+    );
+}
+
 :root {
-    --color-1: white;
-    --color-2: #2d1950;
-    --color-3: #c95bf5;
-    --color-4: black;
-    --color-5: #68187a;
-    --color-6: #a588c0;
-    --color-7: #623686;
-    --color-8: #6d20c5;
-    --color-9: #8a49a8;
-    --color-10: #934cce;
-    --color-11: rgba(178, 115, 230, 0.9);
+    --imp-text-color: #5e8255;
+    --loading-background-color: white; /* background color of loading screen */
+    /* spinner color in pre.svg "stroke" */
+    --color-1: black; /* text */
+    --color-2: black; /* scrollbar track */
+    --color-3: green; /* navbar on hover */
+    --color-4: rgba(116, 169, 112, 0.429); /* navbar bg on scroll */
+    --color-5: #00fd33; /* tech icons bg */
+    --color-6: #ff0000;
+    --color-7: #d3bba4; /* project card box shadow and github/demo buttons */
+    --color-8: #0bfc03; /* project card button hover */
+    --color-9: #15fe00; /* project card hover box shadow */
+    --color-10: #e6ee06;
+    --color-11: #078f10d7; /* scrollbar thumb and tech icon outline */
+    --background-color: #e5e4e2;
 
     --scrollbar-thumb: var(--color-11);
     --scrollbar-thumb-hover: var(--color-11);

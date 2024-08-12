@@ -1,21 +1,5 @@
 @import url("colors.css");
 
-html {
-    --section-background-color: linear-gradient(
-        to bottom left,
-        rgba(17, 16, 16, 0.582),
-        rgba(12, 8, 24, 0.904)
-    );
-
-    --image-gradient: linear-gradient(
-        to bottom left,
-        rgba(17, 16, 16, 0.678),
-        rgba(12, 10, 22, 0.863)
-    );
-
-    /* --imp-text-color: #c770f0; */
-}
-
 .purple {
     color: var(--imp-text-color) !important;
 }
@@ -80,7 +64,7 @@ button:focus {
 .sticky {
     background-color: var(--navbar-bg) !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    box-shadow: 0px 10px 10px 0px var(--navbar-bg) !important;
     backdrop-filter: blur(15px) !important;
 }
 
@@ -146,7 +130,7 @@ button:focus {
     .navbar {
         padding: 1rem 2rem !important;
         font-size: 1.4rem !important;
-        background-color: #181a27 !important;
+        background-color: var(--navbar-bg) !important;
     }
     .navbar-nav .nav-item a::after {
         display: none !important;
@@ -490,8 +474,6 @@ button:focus {
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
 }
-
-/* TODO continue adding to colors.css */
 
 .blog-link {
     color: var(--blog-link) !important;
