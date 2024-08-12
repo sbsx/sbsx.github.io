@@ -37,4 +37,39 @@
 
     --blog-card-view-box-shadow: rgba(145, 77, 161, 0.459);
     --blog-card-view-color: white;
+    --blog-link: white;
+    --blog-card-view-hover: rgba(155, 88, 173, 0.65);
+
+    --btn-primary: white;
+    --btn-primary-bg: #623686;
+    --btn-primary-border-color: #623686;
+
+    --btn-primary-hover-color: white;
+    --btn-primary-hover-bg: #6d20c5d7;
+    --btn-primary-hover-border-color: #6d20c5d7;
+
+    --project-heading: white;
+
+    --about-section: white;
+
+    --tech-icons-border: rgba(200, 137, 230, 0.637);
+    --tech-icons-box-shadow: rgba(89, 4, 168, 0.137);
+    --tech-icons-hover-border: rgba(197, 115, 230, 0.883);
+
+    --quote-card-view: white;
+
+    --resume-section: white;
+    --resume-item-border: #8a49a8;
+    --resume-item-title-bg: #5234795d;
+    --resume-item-before-bg: white;
+    --resume-item-before-border: #8a49a8;
+
+    --like-btn-bg: #934cce5e;
+    --like-btn-border: #934cce5e;
+    --like-btn-hover-bg: #a24dd386;
+    --like-btn-hover-border: #a24dd386;
+
+    --fork-btn-inner-bg: #934cce5e;
+    --fork-btn-inner-hover-bg: #a24dd386
+    --fork-btn-inner-hover-border: #a24dd386;
 }
