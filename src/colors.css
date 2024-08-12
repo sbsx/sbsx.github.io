@@ -1,75 +1,80 @@
 /* colors.css */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --accent-color: #e74c3c;
-    --background-color: #ecf0f1;
-    --text-color: #2c3e50;
-    --imp-text-color: #c770f0; /* Example color from your current CSS */
+    --color-1: white;
+    --color-2: #2d1950;
+    --color-3: #c95bf5;
+    --color-4: black;
+    --color-5: #68187a;
+    --color-6: #a588c0;
+    --color-7: #623686;
+    --color-8: #6d20c5;
+    --color-9: #8a49a8;
+    --color-10: #934cce;
+    --color-11: rgba(178, 115, 230, 0.9);
 
-    --scrollbar-thumb: rgba(178, 121, 216, 0.959);
-    --scrollbar-thumb-hover: rgba(222, 130, 235, 0.911);
-    --scrollbar-track: #2d1950;
+    --scrollbar-thumb: var(--color-11);
+    --scrollbar-thumb-hover: var(--color-11);
+    --scrollbar-track: var(--color-2);
 
-    --navbar-bg: #1b1a2ea9;
-    --navbar-toggler: #be50f4;
-    --navbar-brand: rgb(250, 250, 250);
-    --navbar-nav-link: white;
-    --navbar-nav-after: #c95bf5;
+    --navbar-bg: var(--color-4);
+    --navbar-toggler: var(--color-3);
+    --navbar-brand: var(--color-1);
+    --navbar-nav-link: var(--color-1);
+    --navbar-nav-after: var(--color-3);
 
-    --home-content: whitesmoke;
-    --main-name: #cd5ff8;
-    --home-about-description: white;
-    --home-about-social: white;
-    --home-social-icons: rgba(255, 255, 255, 0.972);
-    --home-social-icons-before: #68187a;
-    --home-social-icons-hover-before: #801f95;
-    --home-social-icons-hover: #87209e;
+    --home-content: var(--color-1);
+    --main-name: var(--color-3);
+    --home-about-description: var(--color-1);
+    --home-about-social: var(--color-1);
+    --home-social-icons: var(--color-1);
+    --home-social-icons-before: var(--color-5);
+    --home-social-icons-hover-before: var(--color-5);
+    --home-social-icons-hover: var(--color-5);
 
-    --icon-color: #700c86;
-    --footer-bg: rgb(10, 4, 22);
-    --footer-h3: white;
-    --footer-blockquote: #a588c0;
+    --icon-color: var(--color-5);
+    --footer-bg: var(--color-4);
+    --footer-h3: var(--color-1);
+    --footer-blockquote: var(--color-6);
 
-    --project-card-box-shadow: rgba(119, 53, 136, 0.459);
-    --project-card-color: white;
-    --project-card-hover-box-shadow: rgba(129, 72, 144, 0.561);
+    --project-card-box-shadow: var(--color-7);
+    --project-card-color: var(--color-1);
+    --project-card-hover-box-shadow: var(--color-9);
 
-    --blog-card-view-box-shadow: rgba(145, 77, 161, 0.459);
-    --blog-card-view-color: white;
-    --blog-link: white;
-    --blog-card-view-hover: rgba(155, 88, 173, 0.65);
+    --blog-card-view-box-shadow: var(--color-9);
+    --blog-card-view-color: var(--color-1);
+    --blog-link: var(--color-1);
+    --blog-card-view-hover: var(--color-9);
 
-    --btn-primary: white;
-    --btn-primary-bg: #623686;
-    --btn-primary-border-color: #623686;
+    --btn-primary: var(--color-1);
+    --btn-primary-bg: var(--color-7);
+    --btn-primary-border-color: var(--color-7);
 
-    --btn-primary-hover-color: white;
-    --btn-primary-hover-bg: #6d20c5d7;
-    --btn-primary-hover-border-color: #6d20c5d7;
+    --btn-primary-hover-color: var(--color-1);
+    --btn-primary-hover-bg: var(--color-8);
+    --btn-primary-hover-border-color: var(--color-8);
 
-    --project-heading: white;
+    --project-heading: var(--color-1);
 
-    --about-section: white;
+    --about-section: var(--color-1);
 
-    --tech-icons-border: rgba(200, 137, 230, 0.637);
-    --tech-icons-box-shadow: rgba(89, 4, 168, 0.137);
-    --tech-icons-hover-border: rgba(197, 115, 230, 0.883);
+    --tech-icons-border: var(--color-11);
+    --tech-icons-box-shadow: var(--color-5);
+    --tech-icons-hover-border: var(--color-11);
 
-    --quote-card-view: white;
+    --quote-card-view: var(--color-1);
 
-    --resume-section: white;
-    --resume-item-border: #8a49a8;
-    --resume-item-title-bg: #5234795d;
-    --resume-item-before-bg: white;
-    --resume-item-before-border: #8a49a8;
+    --resume-section: var(--color-1);
+    --resume-item-border: var(--color-9);
+    --resume-item-title-bg: var(--color-7);
+    --resume-item-before-bg: var(--color-1);
+    --resume-item-before-border: var(--color-9);
 
-    --like-btn-bg: #934cce5e;
-    --like-btn-border: #934cce5e;
-    --like-btn-hover-bg: #a24dd386;
-    --like-btn-hover-border: #a24dd386;
+    --like-btn-bg: var(--color-10);
+    --like-btn-border: var(--color-10);
+    --like-btn-hover-bg: var(--color-10);
+    --like-btn-hover-border: var(--color-10);
 
-    --fork-btn-inner-bg: #934cce5e;
-    --fork-btn-inner-hover-bg: #a24dd386
-    --fork-btn-inner-hover-border: #a24dd386;
+    --fork-btn-inner-bg: var(--color-10) 5e;
+    --fork-btn-inner-hover-bg: var(--color-10);
+    --fork-btn-inner-hover-border: var(--color-10);
 }
