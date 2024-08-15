@@ -26,6 +26,7 @@ html {
     --color-10: #e6ee06;
     --color-11: #078f10d7; /* scrollbar thumb and tech icon outline */
     --background-color: #e5e4e2;
+    --tech-icons-color: yellow;
 
     --scrollbar-thumb: var(--color-11);
     --scrollbar-thumb-hover: var(--color-11);

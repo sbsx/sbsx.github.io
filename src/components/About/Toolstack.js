@@ -13,13 +13,14 @@ import {
   SiWindows,
   SiLinux
 } from "react-icons/si";
+
+// TODO find icons
 {/*DBeaver, ServiceNow*/}
 
 const icons = [SiVisualstudiocode, SiPostman, SiMicrosoftazure, SiCloudera, 
   SiJira, SiBitbucket,  SiWindows, SiMicrosoftteams, SiLinux, SiSlack]
 
 function Toolstack() {
-  // TODO Change Toolstack
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {icons.map((Icon, index) => (

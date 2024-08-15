@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -21,70 +15,125 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         {/* TODO Change All Projects */}
+        {/* Projects:
+        - GISHelp Chatbot
+        - ARK lookup
+        - HoneyBee Lora finetuning
+        - Embedding/Reranker finetuning
+        - CameraWafer
+        - Pose Estimation
+        - TUAS Drone
+        - Triton Robot
+        - Skin cancer knn
+        - google cloud ocr calc
+        */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              // imgPath={chatify}  GRADIO/AMAT logo
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="GISHelp Chatbot"
+              description="RAG based chatbot using onprem hosted mistral llm with milvus vdb with over 25k documents to help users solve tech issues following company procedure"
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              // imgPath={bitsOfCode} GRADIO/AMAT logo
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="ARK"
+              description="RAG chatbot using Azure Openai and Doc Search to enable rapid discovery of tooling documents for onsite fab workers"
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              // imgPath={editor} HoneyBee
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="HoneyBee LoRA"
+              description="Using GPT generated finetuning data to finetune a Llama model for better performance in Material Science based questions"
+              // ghLink="https://github.com/soumyajit4419/Editor.io"  link to HoneyBee research paper
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              // imgPath={leaf} Embedding/Reranker
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Improving Retrieval"
+              description="Finetuning embedding and reranker models with business specific data to improve search accuracy and hitrate"
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              // imgPath={suicide} camerawafer maybe pic of machine?
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="CameraWafer"
+              description="Computer Vision device speeding up machine calibration"
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              // imgPath={emotion} pose estimation example
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Pose Estimation"
+              description="Trained small CNN to classify images and find precise locations of body parts"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={emotion} TUAS logo
+              isBlog={false}
+              title="TUAS Drone"
+              description="Developed pipeline and used cv models to complete competition tasks"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"  TUAS github?
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={emotion} Triton Robotics Logo
+              isBlog={false}
+              title="Triton Robotics Object Tracking"
+              description="Used opencv to improve low light object tracking performance for better enemy path prediction"
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={emotion} skin cancer knn pca
+              isBlog={false}
+              title="Skin Cancer Detection" 
+              description="Created KNN and PCA models from scratch to efficiently classify skin cancer types as an exercise in ML theory"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={emotion} Compass GC OCR
+              isBlog={false}
+              title="OCR Calculator"
+              description="Used Google Cloud OCR to create a calculator that can read and solve math problems from images, winning top 10 in the 2020 SFHacks hackathon"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>

@@ -1,7 +1,7 @@
 
         <Container className="home-content">
           <Row>
-            {/* TODO Change/Remove Emoji */}
+            
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello{" "}
@@ -19,7 +19,7 @@
                 <Type />
               </div> 
             </Col>
-            {/* TODO Change Home Picture */}
+            
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}

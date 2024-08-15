@@ -17,7 +17,7 @@ import {
   SiOpenai,
   SiFastapi
 } from "react-icons/si";
-// TODO Change Techstack
+// TODO Find Icons
 {/*Huggingface, Langchain, llama-index*/}
 
 const icons = [ DiPython, DiGit, SiTensorflow, SiPytorch, SiOpencv, SiOpenai, 

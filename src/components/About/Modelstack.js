@@ -10,7 +10,7 @@ SiOpenai
 const icons = [SiMeta,SiOpenai,]
 
 function Modelstack() {
-  // TODO Change Modelstack
+  // TODO Find Icons
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {icons.map((Icon, index) => (
