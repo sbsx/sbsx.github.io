@@ -28,7 +28,8 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {icons.map((Icon, index) => (
         <Col key={index} xs={4} md={2} className="tech-icons">
-          <Icon />
+            <Icon />
+            {/* <p className="icon-text">Tooltip Text</p> */}
         </Col>
       ))}
     </Row>

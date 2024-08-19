@@ -130,7 +130,7 @@ button:focus {
     .navbar {
         padding: 1rem 2rem !important;
         font-size: 1.4rem !important;
-        background-color: var(--navbar-bg) !important;
+        background-color: var(--navbar-bg-mobile) !important;
     }
     .navbar-nav .nav-item a::after {
         display: none !important;
@@ -552,9 +552,14 @@ button:focus {
     color: var(--tech-icons-color);
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .tech-icons {
-        margin: 10px !important;
+        font-size: 3em !important; /* Smaller font size for icons */
+        margin: 10px !important; /* Reduced margin */
+        padding: 5px !important; /* Reduced padding */
+        border: 1px solid var(--tech-icons-border) !important; /* Thinner border */
+        box-shadow: 2px 2px 2px 2px var(--tech-icons-box-shadow) !important; /* Subtler box shadow */
+        /* Keep other properties unchanged if they work well on mobile */
     }
 }
 
