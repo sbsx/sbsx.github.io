@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/logo.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -82,20 +82,20 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
-            <Nav.Item>
+            {/* TODO Complete Research Tab */}
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/research"
                 onClick={() => updateExpanded(false)}
               >
-                {/* TODO Change Research Icon */}
+                
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Research
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link

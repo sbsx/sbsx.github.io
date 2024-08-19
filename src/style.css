@@ -562,6 +562,7 @@ button:focus {
     transform: scale(1.05) !important;
     overflow: hidden !important;
     border: 2.2px solid var(--tech-icons-hover-border) !important;
+    color: var(--tech-icons-hover-border);
 }
 .tech-icon-images {
     padding: 20px !important;

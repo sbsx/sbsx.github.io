@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+// add tools used icons to project panels
+// separate work projects and personal projects
+
 function Projects() {
   return (
     <Container fluid className="project-section">

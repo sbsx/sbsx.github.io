@@ -11,28 +11,25 @@ html {
 }
 
 :root {
-    --imp-text-color: #5e8255;
-    --loading-background-color: white; /* background color of loading screen */
     /* spinner color in pre.svg "stroke" */
     --color-1: black; /* text */
-    --color-2: black; /* scrollbar track */
-    --color-3: green; /* navbar on hover */
-    --color-4: rgba(116, 169, 112, 0.429); /* navbar bg on scroll */
-    --color-5: #00fd33; /* tech icons bg */
-    --color-6: #ff0000;
+    --color-2: #e5e4e2; /* scrollbar track */
+    --color-3: #c45736; /* navbar on hover */
+    --color-4: #5e825586; /* navbar bg on scroll */
+    --color-5: #5e825546;
     --color-7: #d3bba4; /* project card box shadow and github/demo buttons */
-    --color-8: #0bfc03; /* project card button hover */
-    --color-9: #15fe00; /* project card hover box shadow */
-    --color-10: #e6ee06;
-    --color-11: #078f10d7; /* scrollbar thumb and tech icon outline */
-    --background-color: #e5e4e2;
-    --tech-icons-color: yellow;
+    --color-6: white;
 
-    --scrollbar-thumb: var(--color-11);
-    --scrollbar-thumb-hover: var(--color-11);
+    --imp-text-color: #5e8255;
+    --tech-icons-color: #000000a2;
+    --background-color: var(--color-2);
+    --loading-background-color: white;
+
+    --scrollbar-thumb: var(--color-3);
+    --scrollbar-thumb-hover: var(--color-3);
     --scrollbar-track: var(--color-2);
 
-    --navbar-bg: var(--color-4);
+    --navbar-bg: var(--color-5);
     --navbar-toggler: var(--color-3);
     --navbar-brand: var(--color-1);
     --navbar-nav-link: var(--color-1);
@@ -42,48 +39,48 @@ html {
     --main-name: var(--color-3);
     --home-about-description: var(--color-1);
     --home-about-social: var(--color-1);
-    --home-social-icons: var(--color-1);
-    --home-social-icons-before: var(--color-5);
-    --home-social-icons-hover-before: var(--color-5);
-    --home-social-icons-hover: var(--color-5);
+    --home-social-icons: var(--color-6);
+    --home-social-icons-before: var(--color-4);
+    --home-social-icons-hover-before: var(--color-4);
+    --home-social-icons-hover: var(--color-4);
 
-    --icon-color: var(--color-5);
+    --icon-color: var(--color-4);
     --footer-bg: var(--color-4);
     --footer-h3: var(--color-1);
     --footer-blockquote: var(--color-6);
 
     --project-card-box-shadow: var(--color-7);
     --project-card-color: var(--color-1);
-    --project-card-hover-box-shadow: var(--color-9);
+    --project-card-hover-box-shadow: var(--color-4);
 
-    --blog-card-view-box-shadow: var(--color-9);
+    --blog-card-view-box-shadow: var(--color-4);
     --blog-card-view-color: var(--color-1);
     --blog-link: var(--color-1);
-    --blog-card-view-hover: var(--color-9);
+    --blog-card-view-hover: var(--color-4);
 
     --btn-primary: var(--color-1);
     --btn-primary-bg: var(--color-7);
     --btn-primary-border-color: var(--color-7);
 
     --btn-primary-hover-color: var(--color-1);
-    --btn-primary-hover-bg: var(--color-8);
-    --btn-primary-hover-border-color: var(--color-8);
+    --btn-primary-hover-bg: var(--color-4);
+    --btn-primary-hover-border-color: var(--color-4);
 
     --project-heading: var(--color-1);
 
     --about-section: var(--color-1);
 
-    --tech-icons-border: var(--color-11);
-    --tech-icons-box-shadow: var(--color-5);
-    --tech-icons-hover-border: var(--color-11);
+    --tech-icons-border: var(--color-4);
+    --tech-icons-box-shadow: var(--color-4);
+    --tech-icons-hover-border: var(--color-3);
 
     --quote-card-view: var(--color-1);
 
     --resume-section: var(--color-1);
-    --resume-item-border: var(--color-9);
+    --resume-item-border: var(--color-4);
     --resume-item-title-bg: var(--color-7);
     --resume-item-before-bg: var(--color-1);
-    --resume-item-before-border: var(--color-9);
+    --resume-item-before-border: var(--color-4);
 
     --like-btn-bg: var(--color-10);
     --like-btn-border: var(--color-10);
