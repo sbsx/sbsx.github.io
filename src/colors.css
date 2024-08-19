@@ -30,7 +30,7 @@ html {
     --scrollbar-track: var(--color-2);
 
     --navbar-bg: var(--color-5);
-    --navbar-bg-mobile: #5e8255e1;
+    --navbar-bg-mobile: #5e8255;
     --navbar-toggler: var(--color-3);
     --navbar-brand: var(--color-1);
     --navbar-nav-link: var(--color-1);
