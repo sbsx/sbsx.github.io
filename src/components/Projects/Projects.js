@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-// add tools used icons to project panels
-// separate work projects and personal projects
+// TODO add tools used icons to project panels
+// TODO separate work projects and personal projects
+// TODO Link to project scope and details
 
 function Projects() {
   return (

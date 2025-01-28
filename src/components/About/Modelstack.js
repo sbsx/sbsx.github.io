@@ -1,22 +1,29 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-//   list of model icons
-SiMeta,
-SiOpenai
-} from "react-icons/si";
-{/*Llama, GPT, Mistral, SentenceBert, YOLO, SAM, */}
+import { SiMeta, SiOpenai } from "react-icons/si";
 
-const icons = [SiMeta,SiOpenai,]
+import MistralLogo from "../../assets/logos/mistral.svg";
+import SentenceBertLogo from "../../assets/logos/sentencebert.png";
+import DeepSeekLogo from "../../assets/logos/deepseek.svg";
 
+const icons = [
+  { component: SiMeta, type: "icon" },
+  { component: SiOpenai, type: "icon" },
+  { component: MistralLogo, type: "image" },
+  { component: SentenceBertLogo, type: "image" },
+  { component: DeepSeekLogo, type: "image" },
+];
 
 function Modelstack() {
-  // TODO Find Icons
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {icons.map((Icon, index) => (
+      {icons.map((icon, index) => (
         <Col key={index} xs={4} md={2} className="tech-icons">
-          <Icon />
+          {icon.type === "icon" ? (
+            <icon.component />
+          ) : (
+            <img src={icon.component} alt="logo" style={{ width: "100%" }} />
+          )}
         </Col>
       ))}
     </Row>

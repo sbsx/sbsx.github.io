@@ -18,6 +18,7 @@ import {
   SiFastapi
 } from "react-icons/si";
 // TODO Find Icons
+// TODO Add Icon tags for recognition
 {/*Huggingface, Langchain, llama-index*/}
 
 const icons = [ DiPython, DiGit, SiTensorflow, SiPytorch, SiOpencv, SiOpenai, 
